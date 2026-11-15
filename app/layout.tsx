@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "camera online",
-  description: "camera online",
+  title: "Online Camera",
+  description: "Online Camera",
 };
 
 export default function RootLayout({

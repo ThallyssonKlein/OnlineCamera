@@ -39,13 +39,13 @@ export default function CameraView() {
           className="flex items-center gap-2 px-6 py-2 rounded-full bg-white text-zinc-900 text-sm font-medium hover:bg-zinc-200 transition-colors"
         >
           <CameraIcon />
-          Capturar foto
+          Capture photo
         </button>
         <button
           onClick={() => cameraHandler.current?.switch()}
           className="px-6 py-2 rounded-full bg-zinc-800 text-white text-sm hover:bg-zinc-700 transition-colors"
         >
-          Alternar câmera
+          Switch camera
         </button>
       </div>
     </div>
