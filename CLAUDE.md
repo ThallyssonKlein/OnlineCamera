@@ -33,3 +33,7 @@ Source lives under `src/` with path aliases `@components/*`, `@hooks/*`, `@servi
 - `src/services/` — `logger`, `analytics`, `crashReporter` (analytics and crash reporting only log until a provider is chosen) and `fileDownload`.
 
 There is no API layer, no state management library, and no data fetching — the app is purely client-side camera access.
+
+## Modern web guidance
+
+Before writing or changing HTML, CSS, or client-side JS/React UI code (dialogs, popovers, forms, layout, animations, accessibility, performance), invoke the `modern-web-guidance` skill first and follow its guides. Prefer native platform features over custom JS or heavy libraries. Skip it for backend, config/tooling, and test-only changes.
